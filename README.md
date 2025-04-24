@@ -9,7 +9,7 @@ This is a Phaser 3 project template that uses webpack for bundling. It supports 
 This template has been updated for:
 
 - [Phaser 3.88.2](https://github.com/phaserjs/phaser)
-- [Webpack 5.91.0](https://github.com/webpack/webpack)
+- [Webpack 5.99.6](https://github.com/webpack/webpack)
 - [TypeScript 5.4.5](https://github.com/microsoft/TypeScript)
 
 ![screenshot](screenshot.png)
@@ -40,13 +40,16 @@ Once the server is running you can edit any of the files in the `src` folder. We
 
 We have provided a default project structure to get you started. This is as follows:
 
-- `index.html` - A basic HTML page to contain the game.
-- `src` - Contains the game source code.
-- `src/main.ts` - The main **entry** point. This contains the game configuration and starts the game.
-- `src/global.d.ts` - Global TypeScript declarations, provide types information.
-- `src/scenes/` - The Phaser Scenes are in this folder.
-- `public/style.css` - Some simple CSS rules to help with page layout.
-- `public/assets` - Contains the static assets used by the game.
+| Path                         | Description                                                |
+|------------------------------|------------------------------------------------------------|
+| `public/index.html`          | A basic HTML page to contain the game.                     |
+| `public/assets`              | Game sprites, audio, etc. Served directly at runtime.      |
+| `public/style.css`           | Global layout styles.                                      |
+| `src/main.ts`                | Application bootstrap.                                     |
+| `src/game`                   | Folder containing the game code.                           |
+| `src/game/main.ts`           | Game entry point: configures and starts the game.          |
+| `src/game/scenes`            | Folder with all Phaser game scenes.                        |
+
 
 ## Handling Assets
 
@@ -158,6 +161,6 @@ We love to see what developers like you create with Phaser! It really motivates 
 
 Created by [Phaser Studio](mailto:support@phaser.io). Powered by coffee, anime, pixels and love.
 
-The Phaser logo and characters are &copy; 2011 - 2024 Phaser Studio Inc.
+The Phaser logo and characters are &copy; 2011 - 2025 Phaser Studio Inc.
 
 All rights reserved.
